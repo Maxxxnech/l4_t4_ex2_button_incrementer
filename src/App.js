@@ -1,7 +1,8 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import ButtonFunctional from "./ButtonFunctional";
 import ButtonClassComp from "./ButtonClassComp";
+
 function App() {
   return (
     <div className="App">
