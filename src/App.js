@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonFunctional from "./ButtonFunctional";
+import ButtonClassComp from "./ButtonClassComp";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>l4_t4, задание 2: кнопка-инкрементор</h1>
+      <div className="buttonBox">
+        <h2>Функциональный компонент</h2>
+        <ButtonFunctional />
+      </div>
+      <div className="buttonBox">
+        <h2>Классовый компонент</h2>
+        <ButtonClassComp />
+      </div>
     </div>
   );
 }
